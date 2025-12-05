@@ -1,18 +1,17 @@
-# 🌡️ Monitoramento Térmico IoT com Atuação Ativa (ODS 3)
+# 🌡️ Monitoramento de Temperatura com ESP32 + DHT22 + MQTT + Servo
 
-Este projeto utiliza um **ESP32**, um sensor **DHT22**, LEDs de indicação, um **buzzer** e um **Servo Motor** para criar um sistema completo de monitoramento de estresse térmico ocupacional.
+Este projeto utiliza um **ESP32**, um sensor **DHT22**, LEDs de indicação, um **buzzer** e um **Servo Motor** para criar um sistema completo de monitoramento de estresse térmico (ODS 3).  
+As leituras são enviadas via **MQTT** e acompanhadas por alertas visuais e sonoros. Se o calor for excessivo, o sistema atua fisicamente ligando o servo.
 
-O diferencial deste projeto é o foco na **ODS 3 (Saúde e Bem-Estar)**: o sistema não apenas monitora, mas possui **atuação ativa**. Ao detectar calor excessivo, ele aciona automaticamente o Servo Motor (simulando um umidificador ou ventilação) para mitigar o risco à saúde.
-
-![Protótipo](imagens/prototipo.png)
+![Protótipo](imagens/prototipo.jpg)
 
 ---
 
 ## 📦 Estrutura do Projeto
 
 ```text
-monitor-termico-iot/
-│── sketch.ino       # Código fonte (Firmware)
-│── diagram.json     # Arquivo de diagrama do Wokwi
-│── libraries.txt    # Lista de bibliotecas necessárias
-│── README.md        # Documentação do projeto
+projeto-temperatura-esp32/
+│── sketch.ino
+│── diagram.json
+│── libraries.txt
+│── README.md
