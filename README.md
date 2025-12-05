@@ -4,7 +4,7 @@ Este projeto utiliza um **ESP32**, um sensor **DHT22**, LEDs de indicação, um 
 
 O diferencial deste projeto é o foco na **ODS 3 (Saúde e Bem-Estar)**: o sistema não apenas monitora, mas possui **atuação ativa**. Ao detectar calor excessivo, ele aciona automaticamente o Servo Motor (simulando um umidificador ou ventilação) para mitigar o risco à saúde.
 
-![Prototipo](imagens/prototipo.png)
+![Protótipo](imagens/prototipo.png)
 
 ---
 
